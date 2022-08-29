@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>SignUp Form</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="left">
+        <h1>Learn to code by <br />watching others</h1>
+        <p>
+          see how experienced developres solve problems in real-time.<br />Watching
+          scripted tutorial is great,but understanding how<br />developers think
+          is invaluable
+        </p>
+      </div>
+      <div class="right">
+        <div class="pricing">
+          <p>try it <span> free 7 days</span> then $20/mo. thereafter</p>
+        </div>
+        <form class="form">
+          <div class="form-control">
+            <label>First Name</label>
+            <input type="text" placeholder="First Name" class="firstName" />
+            <i class="fa-solid fa-circle-check"></i>
+            <i class="fa-solid fa-circle-exclamation"></i>
+            <small>Error Message</small>
+          </div>
+          <div class="form-control">
+            <label>Last Name</label>
+            <input type="text" placeholder="Last Name" id="lastName" />
+            <i class="fa-solid fa-circle-check"></i>
+            <i class="fa-solid fa-circle-exclamation"></i>
+            <small>Error Message</small>
+          </div>
+          <div class="form-control">
+            <label>Email Address</label>
+            <input type="email" placeholder="Email Address" id="email" />
+            <i class="fa-solid fa-circle-check"></i>
+            <i class="fa-solid fa-circle-exclamation"></i>
+            <small>Error Message</small>
+          </div>
+          <div class="form-control">
+            <label>Password</label>
+            <input type="password" placeholder="Password" id="password" />
+            <i class="fa-solid fa-circle-check"></i>
+            <i class="fa-solid fa-circle-exclamation"></i>
+            <small>Error Message</small>
+          </div>
+          <button class="submit">CLAIM YOUR FREE TRIAL</button>
+          <p>
+            By clicking this button you agree to our
+            <a href="">Terms and Conditions</a>
+          </p>
+        </form>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
